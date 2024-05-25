@@ -3,71 +3,162 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#FCF9D8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Opciones">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Volumen"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/tvTitulo"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Opciones"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/separador1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <View
+        android:id="@+id/separador1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tema"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@id/cvBotones"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
+        />
 
-    <Switch
-        android:id="@+id/temaswitch"
-        android:layout_width="wrap_content"
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvBotones"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="484dp"
-        android:text="Tema Oscuro"
-
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/separador2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.412"
-        app:layout_constraintStart_toEndOf="@+id/textView2" />
-
-    <Switch
-        android:id="@+id/muteswitch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mutear sonido"
-        app:layout_constraintBottom_toTopOf="@+id/temaswitch"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.412"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533" />
-
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Volver"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@id/separador1"
+        >
 
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#FCF9D8"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+
+                android:textStyle="bold"
+                android:text="Volumen:" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sonido/Silencio" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/separador2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@id/cvBotones2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvBotones"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvBotones2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/cvBotones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/separador3"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#FCF9D8"
+            app:layout_constraintBottom_toTopOf="@id/separador3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Tema:" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Claro/Oscuro" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/separador3"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toTopOf="@id/cvBotones3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cvBotones2"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvBotones3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/separador3"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:background="#FCF9D8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btVolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Volver" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
