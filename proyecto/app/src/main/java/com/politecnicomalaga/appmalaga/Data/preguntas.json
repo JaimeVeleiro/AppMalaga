@@ -1,135 +1,224 @@
 {
     "preguntas": [
       {
-        "pregunta": "¿En qué provincia española se encuentra Málaga?",
+        "pregunta": "¿En qué siglo experimentó Málaga un auge industrial significativo?",
+        "imagen": "",
         "respuestas": [
-          "Sevilla",
-          "Granada",
-          "**Málaga**",
-          "Cádiz"
+          "Siglo XVIII",
+          "Siglo XIX",
+          "Siglo XX",
+          "Siglo XXI"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Siglo XIX"
       },
       {
-        "pregunta": "¿Cuál es el río que atraviesa Málaga?",
+        "pregunta": "¿Qué producto era famoso por fabricarse en la fábrica de chocolate malagueña 'La Riojana'?",
+        "imagen": "",
         "respuestas": [
-          "Guadalquivir",
-          "Genil",
-          "**Guadalhorce**",
-          "Termes"
+          "Vino",
+          "Aceite",
+          "Chocolate",
+          "Papel"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Chocolate"
       },
       {
-        "pregunta": "¿Cuál es el nombre del monte que domina la ciudad de Málaga?",
+        "pregunta": "¿En qué barrio de Málaga se ubicaba la fábrica 'Industria Malagueña S.A.'?",
+        "imagen": "",
         "respuestas": [
-          "Sierra Nevada",
-          "**Gibralfaro**",
-          "El Torcal",
-          "Maroma"
+          "Churriana",
+          "Huelin",
+          "Teatinos",
+          "Carranque"
         ],
-        "respuesta_correcta": 1
+        "respuesta_correcta": "Huelin"
       },
       {
-        "pregunta": "¿Cuál es el principal aeropuerto de Málaga?",
+        "pregunta": "¿Cuál fue la principal fuente de energía utilizada en las industrias malagueñas del siglo XIX?",
+        "imagen": "",
         "respuestas": [
-          "Aeropuerto de Jerez",
-          "Aeropuerto de Granada",
-          "**Aeropuerto de Málaga-Costa del Sol**",
-          "Aeropuerto de Almería"
+          "Vapor",
+          "Electricidad",
+          "Carbón",
+          "Petróleo"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Vapor"
       },
       {
-        "pregunta": "¿Cuál es el nombre de la famosa playa de Málaga?",
+        "pregunta": "¿Qué sector industrial fue pionero en la introducción de maquinaria de vapor en Málaga?",
+        "imagen": "",
         "respuestas": [
-          "La Concha",
-          "**La Malagueta**",
-          "Bolonia",
-          "Los Alces"
+          "Textil",
+          "Siderúrgico",
+          "Alimentario",
+          "Químico"
         ],
-        "respuesta_correcta": 1
+        "respuesta_correcta": "Siderúrgico"
       },
       {
-        "pregunta": "¿Cuál es el principal museo de Málaga?",
+        "pregunta": "¿Qué dos eventos históricos contribuyeron al declive de la industria malagueña en el siglo XX?",
+        "imagen": "",
         "respuestas": [
-          "Museo del Prado",
-          "Museo Reina Sofía",
-          "**Museo Picasso Málaga**",
-          "Museo Thyssen-Bornemisza"
+          "Primera Guerra Mundial y Segunda Guerra Mundial",
+          "Guerra de los Cien Años y Revolución Francesa",
+          "Reconquista y Descubrimiento de América",
+          "Guerra Civil Española y Crisis del Petróleo"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Guerra Civil Española y Crisis del Petróleo"
       },
       {
-        "pregunta": "¿Cuál es el nombre de la catedral de Málaga?",
+        "pregunta": "¿En qué se ha reconvertido la antigua zona industrial de Málaga en las últimas décadas?",
+        "imagen": "",
         "respuestas": [
-          "Catedral de Sevilla",
-          "Catedral de Granada",
-          "**Catedral de Málaga**",
-          "Catedral de Almería"
+          "Zona residencial",
+          "Parque empresarial",
+          "Centro comercial",
+          "Área de ocio y cultura"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Área de ocio y cultura"
       },
       {
-        "pregunta": "¿Cuál es el nombre del jardín botánico de Málaga?",
+        "pregunta": "¿Qué papel juega actualmente la industria en la economía de Málaga?",
+        "imagen": "",
         "respuestas": [
-          "Real Jardín Botánico de Madrid",
-          "Jardín Botánico de Valencia",
-          "**Jardín Botánico Histórico-Litoral La Concepción**",
-          "Jardín Botánico de Córdoba"
+          "Sigue siendo un sector importante, aunque ha disminuido su relevancia.",
+          "Ha sido reemplazada en gran medida por el turismo y los servicios.",
+          "Está experimentando un resurgimiento gracias a la innovación y las nuevas tecnologías.",
+          "No tiene un papel significativo en la economía local."
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Sigue siendo un sector importante, aunque ha disminuido su relevancia"
       },
       {
-        "pregunta": "¿Cuál es el nombre del equipo de fútbol de Málaga?",
+        "pregunta": "¿Qué nombre recibe la asociación que defiende el patrimonio industrial de Málaga?",
+        "imagen": "",
         "respuestas": [
-          "Real Betis Balompié",
-          "Granada CF",
-          "Sevilla FC",
-          "**Málaga CF**"
+          "Asociación en Defensa de las Chimeneas",
+          "Amigos del Patrimonio Industrial Malagueño",
+          "Fundación Málaga Industrial",
+          "Legado Histórico Industrial de la Provincia"
         ],
-        "respuesta_correcta": 3
+        "respuesta_correcta": "Asociación en Defensa de las Chimeneas"
       },
       {
-        "pregunta": "¿Cuál es el plato típico de Málaga?",
+        "pregunta": "¿Qué papel jugó la industria malagueña en el desarrollo del ferrocarril en Andalucía",
+        "imagen": "",
         "respuestas": [
-          "Paella",
-          "Gazpacho",
-          "**Espeto de sardinas**",
-          "Salmorejo"
+          "Financiación de la construcción de líneas férreas",
+          "Suministro de materiales para la construcción",
+          "Transporte de productos industriales",
+          "Todas las anteriores"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Todas las anteriores"
       },
       {
-        "pregunta": "¿Cuál es el nombre del vino dulce típico de Málaga?",
+        "pregunta": "¿Qué producto agrícola era fundamental para la industria aceitera malagueña?",
+        "imagen": "",
         "respuestas": [
-          "Manzanilla",
-          "Oloroso",
-          "**Moscatel**",
-          "Pedro Ximénez"
+          "Trigo",
+          "Cebada",
+          "Uva",
+          "Aceituna"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Aceituna"
       },
       {
-        "pregunta": "¿Cuál es el nombre de la festividad más importante de Málaga?",
+        "pregunta": "¿Qué puerto tuvo un papel importante en la exportación de productos industriales?",
+        "imagen": "",
         "respuestas": [
-          "Feria de Abril",
-          "Semana Santa",
-          "**Feria de Málaga**",
-          "Romería del Rocío"
+          "Puerto de Málaga",
+          "Puerto de Vélez-Málaga",
+          "Puerto de Estepona",
+          "Todos los anteriores"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Puerto de Málaga"
       },
       {
-        "pregunta": "¿Cuál es el nombre del personaje histórico más famoso de Málaga?",
+        "pregunta": "¿Qué recurso natural contribuyó al desarrollo de la industria siderúrgica en Málaga?",
+        "imagen": "",
         "respuestas": [
-          "Cristóbal Colón",
-          "Federico García Lorca",
-          "**Antonio Banderas**",
-          "Pablo Picasso"
+          "Hierro",
+          "Cobre",
+          "Plata",
+          "Carbón"
         ],
-        "respuesta_correcta": 2
+        "respuesta_correcta": "Hierro"
+      },
+      {
+        "pregunta": "¿Qué importante infraestructura se construyó en Málaga en 1848, que favoreció el desarrollo industrial?",
+        "imagen": "",
+        "respuestas": [
+          "Puerto de Málaga",
+          "Central hidroeléctrica",
+          "Ferrocarril Málaga-Córdoba",
+          "Aeropuerto de Málaga"
+        ],
+        "respuesta_correcta": "Ferrocarril Málaga-Córdoba"
+      },
+      {
+        "pregunta": "¿Cuál fue el principal motivo de la decadencia de la siderurgia en Málaga a finales del siglo XIX?",
+        "imagen": "",
+        "respuestas": [
+          "Escasez de carbón",
+          "Competencia extranjera",
+          "Falta de inversión",
+          "Conflictos laborales"
+        ],
+        "respuesta_correcta": "Escasez de carbón"
+      },
+      {
+        "pregunta": "¿Qué tecnología permitió un aumento significativo en la producción textil de Málaga en el siglo XIX?",
+        "imagen": "",
+        "respuestas": [
+          "Telares mecánicos",
+          "Máquinas de vapor",
+          "Energía hidroeléctrica",
+          "Motores de combustión interna"
+        ],
+        "respuesta_correcta": "Máquinas de vapor"
+      },
+      {
+        "pregunta": "¿Qué innovación tecnológica se adoptó en la industria malagueña a principios del siglo XX?",
+        "imagen": "",
+        "respuestas": [
+          "Energía nuclear",
+          "Electrificación de las fábricas",
+          "Automatización con robots",
+          "Energía solar"
+        ],
+        "respuesta_correcta": "Electrificación de las fábricas"
+      },
+      {
+        "pregunta": "¿Qué importante cambio económico afectó a la industria malagueña en la segunda mitad del siglo XX?",
+        "imagen": "",
+        "respuestas": [
+          "Nacionalización de las industrias",
+          "Privatización masiva de empresas",
+          "Revolución industrial 4.0",
+          "Integración en la Comunidad Económica Europea"
+        ],
+        "respuesta_correcta": "Integración en la Comunidad Económica Europea"
+      },
+      {
+        "pregunta": "¿Cuál fue la importancia del río Guadalmedina para la industria malagueña?",
+        "imagen": "",
+        "respuestas": [
+          "Fuente de energía hidroeléctrica",
+          "Vía de transporte de mercancías",
+          "Suministro de agua para las fábricas",
+          "Zona de pesca industrial"
+        ],
+        "respuesta_correcta": "Suministro de agua para las fábricas"
+      },
+      {
+        "pregunta": "¿Qué característica distintiva tenían los productos de la cervecería 'Victoria'?",
+        "imagen": "",
+        "respuestas": [
+          "Uso de agua de manantial",
+          "Método de fermentación tradicional",
+          "Ingredientes orgánicos",
+          "Embalaje reutilizable"
+        ],
+        "respuesta_correcta": "Método de fermentación tradicional"
       }
     ]
 }
-  
