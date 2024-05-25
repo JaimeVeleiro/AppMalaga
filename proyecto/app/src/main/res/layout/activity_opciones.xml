@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="#FCF9D8"
+    android:background="#FBFBF8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Opciones">
@@ -20,7 +20,8 @@
         app:layout_constraintBottom_toTopOf="@id/separador1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#0a0a0a"/>
 
     <View
         android:id="@+id/separador1"
@@ -41,6 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/separador1"
+
         >
 
         <LinearLayout
@@ -48,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:background="#FCF9D8"
+            android:background="#FBFBF8"
             >
 
             <TextView
@@ -58,6 +60,7 @@
                 android:textSize="20dp"
                 android:layout_weight="1"
                 android:textAlignment="center"
+                android:textColor="#0a0a0a"
 
                 android:textStyle="bold"
                 android:text="Volumen:" />
@@ -68,7 +71,8 @@
                 android:textSize="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sonido/Silencio" />
+                android:text="Sonido/Silencio"
+                android:textColor="#0a0a0a"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -98,11 +102,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:background="#FCF9D8"
+            android:background="#FBFBF8"
             app:layout_constraintBottom_toTopOf="@id/separador3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+
             >
 
             <TextView
@@ -113,7 +118,8 @@
                 android:textAlignment="center"
                 android:layout_weight="1"
                 android:textStyle="bold"
-                android:text="Tema:" />
+                android:text="Tema:"
+                android:textColor="#0a0a0a"/>
 
             <Switch
                 android:id="@+id/switch2"
@@ -121,7 +127,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textSize="20dp"
-                android:text="Claro/Oscuro" />
+                android:text="Claro/Oscuro"
+                android:textColor="#0a0a0a"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -158,7 +165,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Volver" />
+                android:text="Volver"
+                android:textColor="#0a0a0a"
+                android:backgroundTint="#09a6a3"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
