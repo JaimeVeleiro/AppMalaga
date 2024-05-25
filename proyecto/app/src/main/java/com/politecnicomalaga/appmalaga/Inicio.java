@@ -34,5 +34,15 @@ public class Inicio extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button botonOpciones = findViewById(R.id.btOpciones);
+        botonOpciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Inicio.this, Opciones.class);
+                startActivity(intent);
+                finish();
+            }
+            });
     }
 }
