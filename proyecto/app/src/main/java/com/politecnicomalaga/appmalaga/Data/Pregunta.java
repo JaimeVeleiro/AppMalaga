@@ -1,14 +1,17 @@
 package com.politecnicomalaga.appmalaga.Data;
 
+import java.util.ArrayList;
+
 public class Pregunta {
 
-    String sPregunta, sImagen, sRespuesta, sRespuestaCorrecta;
+    String sPregunta, sImagen, sRespuestaCorrecta;
+    ArrayList<String> alRespuestas;
 
-    public Pregunta(String sPregunta, String sImagen, String sRespuesta, String sRespuestaCorrecta) {
+    public Pregunta(String sPregunta, String sImagen, String sRespuestaCorrecta) {
         this.sPregunta = sPregunta;
         this.sImagen = sImagen;
-        this.sRespuesta = sRespuesta;
         this.sRespuestaCorrecta = sRespuestaCorrecta;
+        alRespuestas = new ArrayList<>();
     }
 
     public String getsPregunta() {
@@ -27,19 +30,25 @@ public class Pregunta {
         this.sImagen = sImagen;
     }
 
-    public String getsRespuesta() {
-        return sRespuesta;
-    }
-
-    public void setsRespuesta(String sRespuesta) {
-        this.sRespuesta = sRespuesta;
-    }
-
     public String getsRespuestaCorrecta() {
         return sRespuestaCorrecta;
     }
 
     public void setsRespuestaCorrecta(String sRespuestaCorrecta) {
         this.sRespuestaCorrecta = sRespuestaCorrecta;
+    }
+
+    public ArrayList<String> getAlRespuestas() {
+        return alRespuestas;
+    }
+
+    public String cogerRespuesta(int i) {
+        String respuesta;
+        respuesta = alRespuestas.get(i);
+        return respuesta;
+    }
+
+    public void setAlRespuestas(ArrayList<String> alRespuestas) {
+        this.alRespuestas = alRespuestas;
     }
 }

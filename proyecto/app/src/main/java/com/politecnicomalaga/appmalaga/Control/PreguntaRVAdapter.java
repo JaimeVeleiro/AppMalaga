@@ -54,13 +54,15 @@ import java.util.List;
             Pregunta msi = this.dataList.get(position);
 
 
-            /*//TRUCO para mostrar imágenes con zoom dentro de un recuadro para webs. Se encapsula la imagen en HTML
-            String html = "<html><body><img src=\"" + msi.getImageURL() + "\" width=\"100%\" height=\"100%\"\"/></body></html>";
-            holder.getImage().loadData(html, "text/html", null);
-
-            holder.getTitle().setText(msi.getTitle());
-            holder.getSubtitle().setText(msi.getSubtitle());
-            holder.getText().setText(msi.getText());*/
+            //TRUCO para mostrar imágenes con zoom dentro de un recuadro para webs. Se encapsula la imagen en HTML
+            String html = "<html><body><img src=\"" + msi.getsImagen() + "\" width=\"100%\" height=\"100%\"\"/></body></html>";
+            //holder.getsImagen().loadData(html, "text/html", null);
+            
+            holder.getPregunta().setText(msi.getsPregunta());
+            holder.getButton1().setText(msi.cogerRespuesta(1));
+            holder.getButton2().setText(msi.cogerRespuesta(2));
+            holder.getButton3().setText(msi.cogerRespuesta(3));
+            holder.getButton4().setText(msi.cogerRespuesta(4));
         }
 
         @Override
