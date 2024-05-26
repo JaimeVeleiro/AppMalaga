@@ -9,7 +9,11 @@ public class AlmacenPreguntas {
         alm = new ArrayList();
     }
 
-    public ArrayList getAlm() {
-        return alm;
-    }
+    String sFichero = "preguntas";
+
+    String json = ControladorFicheros.readText(sFichero + ".json");
+    Gson gson1 = new Gson();
+    alm = gson1.fromJson(json, new TypeToken<ArrayList<Pregunta>>() {}.getType());
+
+
 }
