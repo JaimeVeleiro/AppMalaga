@@ -11,19 +11,19 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Logros extends AppCompatActivity {
+public class Jugar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_logros);
+        setContentView(R.layout.activity_jugar);
 
         Button btnBack = (Button)findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Logros.this, Inicio.class);
+                Intent intent = new Intent(Jugar.this, Inicio.class);
                 startActivity(intent);
             }
         });
