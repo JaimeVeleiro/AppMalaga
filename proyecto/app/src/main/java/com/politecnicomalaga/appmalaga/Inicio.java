@@ -54,5 +54,25 @@ public class Inicio extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button botonJugar = findViewById(R.id.btJugar);
+        botonJugar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Inicio.this, Jugar.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        Button botonPreguntas = findViewById(R.id.btPreguntas);
+        botonPreguntas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Inicio.this, PreguntasLibres.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
