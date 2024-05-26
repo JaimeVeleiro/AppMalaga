@@ -2,7 +2,7 @@
     "preguntas": [
       {
         "pregunta": "¿En qué siglo experimentó Málaga un auge industrial significativo?",
-        "imagen": "",
+        "imagen": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/atlashistoriaecon/cap_39/Industria_Malaga_sXIX.jpg",
         "respuestas": [
           "Siglo XVIII",
           "Siglo XIX",
@@ -13,7 +13,7 @@
       },
       {
         "pregunta": "¿Qué producto era famoso por fabricarse en la fábrica de chocolate malagueña 'La Riojana'?",
-        "imagen": "",
+        "imagen": "https://s2.ppllstatics.com/diariosur/www/multimedia/202003/05/media/cortadas/1920%20-Fachada%20de%20la%20tienda%20de%20La%20Riojana%20de%20la%20calle%20Larios.%20Archivo%20Municipal%20de%20M%C3%A1laga-kSLB-U100414994223knE-624x385@Diario%20Sur.jpg",
         "respuestas": [
           "Vino",
           "Aceite",
@@ -24,7 +24,7 @@
       },
       {
         "pregunta": "¿En qué barrio de Málaga se ubicaba la fábrica 'Industria Malagueña S.A.'?",
-        "imagen": "",
+        "imagen": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/atlashistoriaecon/cap_40/Area_industrial_Malaga.jpg",
         "respuestas": [
           "Churriana",
           "Huelin",
@@ -35,7 +35,7 @@
       },
       {
         "pregunta": "¿Cuál fue la principal fuente de energía utilizada en las industrias malagueñas del siglo XIX?",
-        "imagen": "",
+        "imagen": "https://edea.juntadeandalucia.es/bancorecursos/file/c8b11d01-6442-4da4-82e4-e2ddf6442103/1/es-an_2018070512_9141928.zip/Petroleo.jpg",
         "respuestas": [
           "Vapor",
           "Electricidad",
