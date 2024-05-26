@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@drawable/malaga"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="#FCF9D8"
     tools:context=".Inicio">
 
     <TextView
@@ -16,17 +15,19 @@
         android:gravity="center"
         android:textStyle="bold"
         android:text="App Málaga Politecnico"
+        android:textColor="@color/white"
+        android:background="@drawable/malaga"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@id/separador1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#0a0a0a"/>
+        />
 
     <View
         android:id="@+id/separador1"
         android:layout_width="wrap_content"
-        android:layout_height="20dp"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toTopOf="@id/cvBotones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +39,7 @@
         android:id="@+id/cvBotones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FCF9D8"
         app:layout_constraintBottom_toTopOf="@id/separador2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:background="#FCF9D8"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -65,6 +68,7 @@
 
             <View
                 android:id="@+id/separador3"
+                android:background="#FCF9D8"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 />
@@ -80,6 +84,7 @@
 
             <View
                 android:id="@+id/separador4"
+                android:background="#FCF9D8"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 />
@@ -99,6 +104,7 @@
         android:id="@+id/separador2"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
+        android:background="#FCF9D8"
         app:layout_constraintBottom_toTopOf="@id/cvBotones2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,11 +124,14 @@
 
         <LinearLayout
             android:id="@+id/llBotones2"
-            android:background="#FCF9D8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:backgroundTint="#FBFBF8"
+            android:background="#FCF9D8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             >
             <Button
                 android:id="@+id/btOpciones"
@@ -134,15 +143,16 @@
                 android:backgroundTint="#09a6a3"
                 />
 
-
             <Button
                 android:id="@+id/btIdiomas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
                 android:text="Idiomas"
+                android:layout_weight="1"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3"/>
+                android:backgroundTint="#09a6a3"
+                />
+
 
             <Button
                 android:id="@+id/btConocenos"
@@ -155,4 +165,5 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
