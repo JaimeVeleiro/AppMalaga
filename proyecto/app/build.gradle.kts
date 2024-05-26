@@ -1,3 +1,5 @@
+import org.gradle.internal.impldep.bsh.commands.dir
+
 plugins {
     alias(libs.plugins.android.application)
 }
@@ -30,6 +32,8 @@ android {
 
 dependencies {
 
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation (com.google.code.gson:gson:2.10.1)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
