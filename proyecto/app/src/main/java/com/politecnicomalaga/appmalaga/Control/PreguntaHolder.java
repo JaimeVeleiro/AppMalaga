@@ -1,4 +1,4 @@
-package com.politecnicomalaga.appmalaga.control;
+package com.politecnicomalaga.appmalaga.Control;
 
 import android.view.View;
 import android.webkit.WebView;
