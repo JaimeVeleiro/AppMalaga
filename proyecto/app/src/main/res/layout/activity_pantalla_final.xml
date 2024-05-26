@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FBFBF8"
+    tools:context=".PantallaFinal">
+
+    <TextView
+        android:id="@+id/tv_obtenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Has obtenido:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_puntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUNTOS"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:background="#FBFBF8"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="#FBFBF8"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:textColor="#0a0a0a"
+        android:backgroundTint="#09a6a3"
+        android:padding="12dp"
+        android:onClick="volverInicio"/>
+
+</LinearLayout>
