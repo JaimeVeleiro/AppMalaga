@@ -1,0 +1,224 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "In which century did Málaga experience a significant industrial boom?",
+        "imagen": "",
+        "respuestas": [
+          "18th century",
+          "19th century",
+          "20th century",
+          "21st century"
+        ],
+        "respuesta_correcta": "19th century"
+      },
+      {
+        "pregunta": "What product was famous for being made at the Málaga chocolate factory 'La Riojana'?",
+        "imagen": "",
+        "respuestas": [
+          "Wine",
+          "Oil",
+          "Chocolate",
+          "Paper"
+        ],
+        "respuesta_correcta": "Chocolate"
+      },
+      {
+        "pregunta": "In which neighborhood of Málaga was the 'Industria Malagueña S.A.' factory located?",
+        "imagen": "",
+        "respuestas": [
+          "Churriana",
+          "Huelin",
+          "Teatinos",
+          "Carranque"
+        ],
+        "respuesta_correcta": "Huelin"
+      },
+      {
+        "pregunta": "What was the main source of energy used in Málaga industries in the 19th century?",
+        "imagen": "",
+        "respuestas": [
+          "Steam",
+          "Electricity",
+          "Coal",
+          "Oil"
+        ],
+        "respuesta_correcta": "Steam"
+      },
+      {
+        "pregunta": "Which industrial sector was a pioneer in the introduction of steam machinery in Málaga?",
+        "imagen": "",
+        "respuestas": [
+          "Textile",
+          "Steel",
+          "Food",
+          "Chemical"
+        ],
+        "respuesta_correcta": "Steel"
+      },
+      {
+        "pregunta": "Which two historical events contributed to the decline of Málaga's industry in the 20th century?",
+        "imagen": "",
+        "respuestas": [
+          "First World War and Second World War",
+          "Hundred Years' War and French Revolution",
+          "Reconquista and Discovery of America",
+          "Spanish Civil War and Oil Crisis"
+        ],
+        "respuesta_correcta": "Spanish Civil War and Oil Crisis"
+      },
+      {
+        "pregunta": "What has the former industrial area of Málaga been converted into in recent decades?",
+        "imagen": "",
+        "respuestas": [
+          "Residential area",
+          "Business park",
+          "Shopping center",
+          "Leisure and cultural area"
+        ],
+        "respuesta_correcta": "Leisure and cultural area"
+      },
+      {
+        "pregunta": "What role does industry currently play in Málaga's economy?",
+        "imagen": "",
+        "respuestas": [
+          "It remains an important sector, although its relevance has decreased.",
+          "It has largely been replaced by tourism and services.",
+          "It is experiencing a resurgence thanks to innovation and new technologies.",
+          "It does not play a significant role in the local economy."
+        ],
+        "respuesta_correcta": "It remains an important sector, although its relevance has decreased."
+      },
+      {
+        "pregunta": "What is the name of the association that defends Málaga's industrial heritage?",
+        "imagen": "",
+        "respuestas": [
+          "Association in Defense of Chimneys",
+          "Friends of Málaga's Industrial Heritage",
+          "Málaga Industrial Foundation",
+          "Industrial Historical Legacy of the Province"
+        ],
+        "respuesta_correcta": "Association in Defense of Chimneys"
+      },
+      {
+        "pregunta": "What role did Málaga's industry play in the development of the railway in Andalusia?",
+        "imagen": "",
+        "respuestas": [
+          "Financing the construction of rail lines",
+          "Supplying materials for construction",
+          "Transporting industrial products",
+          "All of the above"
+        ],
+        "respuesta_correcta": "All of the above"
+      },
+      {
+        "pregunta": "What agricultural product was fundamental for Málaga's oil industry?",
+        "imagen": "",
+        "respuestas": [
+          "Wheat",
+          "Barley",
+          "Grape",
+          "Olive"
+        ],
+        "respuesta_correcta": "Olive"
+      },
+      {
+        "pregunta": "Which port played an important role in exporting industrial products?",
+        "imagen": "",
+        "respuestas": [
+          "Port of Málaga",
+          "Port of Vélez-Málaga",
+          "Port of Estepona",
+          "All of the above"
+        ],
+        "respuesta_correcta": "Port of Málaga"
+      },
+      {
+        "pregunta": "What natural resource contributed to the development of the steel industry in Málaga?",
+        "imagen": "",
+        "respuestas": [
+          "Iron",
+          "Copper",
+          "Silver",
+          "Coal"
+        ],
+        "respuesta_correcta": "Iron"
+      },
+      {
+        "pregunta": "What important infrastructure was built in Málaga in 1848 that favored industrial development?",
+        "imagen": "",
+        "respuestas": [
+          "Port of Málaga",
+          "Hydroelectric power plant",
+          "Málaga-Córdoba Railway",
+          "Málaga Airport"
+        ],
+        "respuesta_correcta": "Málaga-Córdoba Railway"
+      },
+      {
+        "pregunta": "What was the main reason for the decline of the steel industry in Málaga at the end of the 19th century?",
+        "imagen": "",
+        "respuestas": [
+          "Coal shortage",
+          "Foreign competition",
+          "Lack of investment",
+          "Labor conflicts"
+        ],
+        "respuesta_correcta": "Coal shortage"
+      },
+      {
+        "pregunta": "What technology allowed a significant increase in Málaga's textile production in the 19th century?",
+        "imagen": "",
+        "respuestas": [
+          "Mechanical looms",
+          "Steam engines",
+          "Hydroelectric power",
+          "Internal combustion engines"
+        ],
+        "respuesta_correcta": "Steam engines"
+      },
+      {
+        "pregunta": "What technological innovation was adopted in Málaga's industry at the beginning of the 20th century?",
+        "imagen": "",
+        "respuestas": [
+          "Nuclear energy",
+          "Electrification of factories",
+          "Automation with robots",
+          "Solar energy"
+        ],
+        "respuesta_correcta": "Electrification of factories"
+      },
+      {
+        "pregunta": "What important economic change affected Málaga's industry in the second half of the 20th century?",
+        "imagen": "",
+        "respuestas": [
+          "Nationalization of industries",
+          "Mass privatization of companies",
+          "Industrial Revolution 4.0",
+          "Integration into the European Economic Community"
+        ],
+        "respuesta_correcta": "Integration into the European Economic Community"
+      },
+      {
+        "pregunta": "What was the importance of the Guadalmedina River for Málaga's industry?",
+        "imagen": "",
+        "respuestas": [
+          "Source of hydroelectric power",
+          "Transportation route for goods",
+          "Water supply for factories",
+          "Industrial fishing area"
+        ],
+        "respuesta_correcta": "Water supply for factories"
+      },
+      {
+        "pregunta": "What distinctive feature did the products of the 'Victoria' brewery have?",
+        "imagen": "",
+        "respuestas": [
+          "Use of spring water",
+          "Traditional fermentation method",
+          "Organic ingredients",
+          "Reusable packaging"
+        ],
+        "respuesta_correcta": "Traditional fermentation method"
+      }
+    ]
+}
