@@ -8,13 +8,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.politecnicomalaga.appmalaga.R;
+
 public class PreguntaHolder extends RecyclerView.ViewHolder {
     private TextView hpregunta;
     private WebView hwebView;
     private Button hbutton1, hbutton2, hbutton3, hbutton4;
 
 
-    public PreguntaHolder(@NonNull View itemView,PreguntasAdapter adapter) {
+    public PreguntaHolder(@NonNull View itemView,PreguntaRVAdapter adapter) {
         super(itemView);
         hpregunta = (TextView) itemView.findViewById(R.id.tvPregunta);
         hwebView = (WebView) itemView.findViewById(R.id.wvImage);

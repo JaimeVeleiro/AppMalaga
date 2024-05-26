@@ -1,3 +1,5 @@
+package com.politecnicomalaga.appmalaga.Control;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.politecnicomalaga.appmalaga.Data.Pregunta;
+import com.politecnicomalaga.appmalaga.R;
 
 import java.util.List;
 
@@ -33,31 +36,31 @@ import java.util.List;
         @NonNull
         @Override
         public PreguntaHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            View mItemView = mInflater.inflate(R.layout.rv_main_item,
+            View mItemView = mInflater.inflate(R.layout.rv_item,
                     parent, false);
 
             //El comando anterior usa el rv_main_item que está en forma de fichero XML dentro de res/layouts
             //para saber "cómo pintar los componentes" de cada fila del RV
 
-            return new MoviesSeriesViewHolder(mItemView, this);
+            return new PreguntaHolder(mItemView, this);
         }
 
         @Override
-        public void onBindViewHolder(@NonNull MoviesSeriesViewHolder holder, int position) {
+        public void onBindViewHolder(@NonNull PreguntaHolder holder, int position) {
             //TODO: fill data
             //Lo primero, ver que indice de la lista se quiere pasar a la pantalla, eso el argumento position
             //RECORDAD, estos métodos los usa el propio sistema ANDRIOD. Están "prefabricados" a falta de que vosotros
             //lo reutilicéis
-            MovieSerieItem msi = this.dataList.get(position);
+            Pregunta msi = this.dataList.get(position);
 
 
-            //TRUCO para mostrar imágenes con zoom dentro de un recuadro para webs. Se encapsula la imagen en HTML
+            /*//TRUCO para mostrar imágenes con zoom dentro de un recuadro para webs. Se encapsula la imagen en HTML
             String html = "<html><body><img src=\"" + msi.getImageURL() + "\" width=\"100%\" height=\"100%\"\"/></body></html>";
             holder.getImage().loadData(html, "text/html", null);
 
             holder.getTitle().setText(msi.getTitle());
             holder.getSubtitle().setText(msi.getSubtitle());
-            holder.getText().setText(msi.getText());
+            holder.getText().setText(msi.getText());*/
         }
 
         @Override
