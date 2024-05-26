@@ -56,7 +56,7 @@ import java.util.List;
 
             //TRUCO para mostrar imágenes con zoom dentro de un recuadro para webs. Se encapsula la imagen en HTML
             String html = "<html><body><img src=\"" + msi.getsImagen() + "\" width=\"100%\" height=\"100%\"\"/></body></html>";
-            //holder.getsImagen().loadData(html, "text/html", null);
+            holder.getWebView().loadData(html, "text/html", null);
             
             holder.getPregunta().setText(msi.getsPregunta());
             holder.getButton1().setText(msi.cogerRespuesta(1));
