@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,27 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Leaderboard extends AppCompatActivity {
-
-    private SharedPreferences sharedPreferences;
-    private static final String PREF_NAME = "LeaderboardPrefs";
-    private static final String KEY_SCORES = "Scores";
-
-    public Leaderboard(Context context) {
-        sharedPreferences = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
-    }
-
-    public void addScore(String name, int score) {
-        String scores = sharedPreferences.getString(KEY_SCORES, "");
-        String newScore = name + ":" + score + ",";
-        sharedPreferences.edit().putString(KEY_SCORES, scores + newScore).apply();
-    }
-
-    public List<String> getScores() {
-        String scores = sharedPreferences.getString(KEY_SCORES, "");
-        List<String> scoreList = new ArrayList<>(Arrays.asList(scores.split(",")));
-        scoreList.removeIf(String::isEmpty); // Remove empty strings if any
-        return scoreList;
-    }
+    private ArrayList<String> names = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +27,43 @@ public class Leaderboard extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_leaderboard);
 
-        Button btnBack = (Button)findViewById(R.id.btnBack);
+
+            String name = getIntent().getStringExtra("NAME");
+
+            // Agregar el nuevo nombre a la lista de nombres
+            if (name != null) {
+                names.add(name);
+            }
+
+            // Mostrar los nombres en los TextViews correspondientes
+            TextView tvName1 = findViewById(R.id.tvName1);
+            TextView tvName2 = findViewById(R.id.tvName2);
+            TextView tvName3 = findViewById(R.id.tvName3);
+            TextView tvName4 = findViewById(R.id.tvName4);
+            TextView tvName5 = findViewById(R.id.tvName5);
+
+            for (int i = 0; i < names.size(); i++) {
+                String nameToShow = names.get(i);
+                switch (i) {
+                    case 0:
+                        tvName1.setText(nameToShow);
+                        break;
+                    case 1:
+                        tvName2.setText(nameToShow);
+                        break;
+                    case 2:
+                        tvName3.setText(nameToShow);
+                        break;
+                    case 3:
+                        tvName4.setText(nameToShow);
+                        break;
+                    case 4:
+                        tvName5.setText(nameToShow);
+                        break;
+                }
+            }
+
+        Button btnBack = (Button)findViewById(R.id.btVolver);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +71,8 @@ public class Leaderboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
 
 
