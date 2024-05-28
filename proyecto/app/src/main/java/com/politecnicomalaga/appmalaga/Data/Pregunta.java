@@ -11,36 +11,26 @@ public class Pregunta {
         this.sPregunta = sPregunta;
         this.sImagen = sImagen;
         this.sRespuestaCorrecta = sRespuestaCorrecta;
-        alRespuestas = new String[20];
+        alRespuestas = new String[4];
     }
 
     public String getsPregunta() {
         return sPregunta;
     }
 
-    public void setsPregunta(String sPregunta) {
-        this.sPregunta = sPregunta;
-    }
 
     public String getsImagen() {
         return sImagen;
-    }
-
-    public void setsImagen(String sImagen) {
-        this.sImagen = sImagen;
     }
 
     public String getsRespuestaCorrecta() {
         return sRespuestaCorrecta;
     }
 
-    public void setsRespuestaCorrecta(String sRespuestaCorrecta) {
-        this.sRespuestaCorrecta = sRespuestaCorrecta;
-    }
 
     public String cogerRespuesta(int i) {
         String respuesta;
-        respuesta = alRespuestas[i];
+        respuesta = alRespuestas[i-1];
         return respuesta;
     }
 

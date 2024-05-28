@@ -1,5 +1,8 @@
 package com.politecnicomalaga.appmalaga.Data;
 
+import android.os.Handler;
+import android.os.Looper;
+
 import com.google.gson.Gson;
 import com.politecnicomalaga.appmalaga.Control.PreguntasViewModel;
 
@@ -8,7 +11,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Request {
-    private boolean error;
     private List<Pregunta> listData;
     private PreguntasViewModel vmInstance;
 
@@ -18,13 +20,11 @@ public class Request {
     }
 
     public Request(PreguntasViewModel vmInstance) {
-        error = false;
         this.vmInstance = vmInstance;
         listData = new ArrayList<>();
     }
 
     public void getData(idioma tipo) {
-        error = false;
         String data = "";
 
         if (tipo == idioma.ESP) {
@@ -58,6 +58,7 @@ public class Request {
             data = ControladorFicheros.readText("preguntasIngles.json");
         }
         setData(data);
+
     }
 
     public void setData(String data) {
