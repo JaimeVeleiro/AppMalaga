@@ -144,32 +144,35 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
             <Button
                 android:id="@+id/btOpciones"
-                android:layout_width="120dp"
-                android:layout_height="match_parent"
-                android:text="Opciones"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:text="Opciones"
                 android:textColor="#0a0a0a"
                 android:backgroundTint="#84d2f2" />
 
-            <Button
-                android:id="@+id/btIdiomas"
-                android:layout_width="120dp"
-                android:layout_height="match_parent"
-                android:text="Idiomas"
-                android:layout_weight="1"
-                android:textColor="#0a0a0a"
-                android:backgroundTint="#84d2f2" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
 
             <Button
                 android:id="@+id/btConocenos"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Conocenos"
                 android:textColor="#0a0a0a"
                 android:backgroundTint="#84d2f2" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
