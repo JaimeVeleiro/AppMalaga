@@ -54,11 +54,14 @@
 
             <Button
                 android:id="@+id/btJugar"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#84d2f2"
+                android:padding="16dp"
                 android:text="Jugar"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3" />
+                android:textSize="18sp" />
 
             <View
                 android:id="@+id/separador3"
@@ -67,11 +70,14 @@
 
             <Button
                 android:id="@+id/btLogros"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#84d2f2"
+                android:padding="16dp"
                 android:text="Logros"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3" />
+                android:textSize="18sp" />
 
             <View
                 android:id="@+id/separador4"
@@ -80,11 +86,14 @@
 
             <Button
                 android:id="@+id/btPreguntas"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#84d2f2"
+                android:padding="16dp"
                 android:text="Preguntas Libres"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3" />
+                android:textSize="18sp" />
 
             <View
                 android:id="@+id/separador5"
@@ -93,11 +102,14 @@
 
             <Button
                 android:id="@+id/btLeaderboard"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#84d2f2"
+                android:padding="16dp"
                 android:text="Leaderboard"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3" />
+                android:textSize="18sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -139,7 +151,7 @@
                 android:text="Opciones"
                 android:layout_weight="1"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3" />
+                android:backgroundTint="#84d2f2" />
 
             <Button
                 android:id="@+id/btIdiomas"
@@ -148,7 +160,7 @@
                 android:text="Idiomas"
                 android:layout_weight="1"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3" />
+                android:backgroundTint="#84d2f2" />
 
             <Button
                 android:id="@+id/btConocenos"
@@ -157,7 +169,7 @@
                 android:layout_weight="1"
                 android:text="Conocenos"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3" />
+                android:backgroundTint="#84d2f2" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
