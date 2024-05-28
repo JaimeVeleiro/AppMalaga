@@ -46,19 +46,19 @@ public class Leaderboard extends AppCompatActivity {
                 String nameToShow = names.get(i);
                 switch (i) {
                     case 0:
-                        tvName1.setText(nameToShow);
+                        tvName1.setText("1:" + nameToShow);
                         break;
                     case 1:
-                        tvName2.setText(nameToShow);
+                        tvName2.setText("2:" + nameToShow);
                         break;
                     case 2:
-                        tvName3.setText(nameToShow);
+                        tvName3.setText("3:" +nameToShow);
                         break;
                     case 3:
-                        tvName4.setText(nameToShow);
+                        tvName4.setText("4:" + nameToShow);
                         break;
                     case 4:
-                        tvName5.setText(nameToShow);
+                        tvName5.setText("5:" + nameToShow);
                         break;
                 }
             }
