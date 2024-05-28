@@ -17,15 +17,15 @@ public class PreguntasViewModel extends ViewModel {
     public LiveData<List<Pregunta>> getResults() {
         if (listaResultados == null) {
             listaResultados = new MutableLiveData<List<Pregunta>>();
-            loadData();
+            loadData(Request.idioma.ESP);
         }
         return listaResultados;
     }
 
-    public void loadData() {
-        // Do an asynchronous operation to fetch data.
+    public void loadData(Request.idioma idioma) {
+
         myRequest = new Request(this);
-        myRequest.getData();
+        myRequest.getData(idioma);
         this.setData();
     }
 

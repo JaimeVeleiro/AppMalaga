@@ -10,6 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.politecnicomalaga.appmalaga.Control.PreguntaRVAdapter;
+import com.politecnicomalaga.appmalaga.Control.PreguntasViewModel;
 
 public class Inicio extends AppCompatActivity {
 
@@ -24,6 +30,16 @@ public class Inicio extends AppCompatActivity {
             return insets;
         });
 
+        PreguntasViewModel vmodel = new ViewModelProvider(this).get(PreguntasViewModel.class);
+        vmodel.getResults().observe(this, Pregunta -> {
+
+            RecyclerView pRecyclerView = findViewById(R.id.rvPreguntas);
+            PreguntaRVAdapter pAdapter = new PreguntaRVAdapter(this, Pregunta);
+            pRecyclerView.setAdapter(pAdapter);
+            pRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        });
+        
         Button botonConocenos = findViewById(R.id.btConocenos);
         botonConocenos.setOnClickListener(new View.OnClickListener() {
             @Override
