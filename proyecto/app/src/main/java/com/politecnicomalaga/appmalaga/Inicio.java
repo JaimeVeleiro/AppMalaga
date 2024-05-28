@@ -74,5 +74,15 @@ public class Inicio extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button botonLeader = findViewById(R.id.btLeaderboard);
+        botonLeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Inicio.this, Leaderboard.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

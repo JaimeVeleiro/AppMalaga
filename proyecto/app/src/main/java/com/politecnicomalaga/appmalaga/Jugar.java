@@ -30,7 +30,7 @@ public class Jugar extends AppCompatActivity {
             }
         });
 
-        Pregunta preguntaActual = new Pregunta("Cuantos dias tiene la semana","url","1,4,6,7","7");
+        //Pregunta preguntaActual = new Pregunta("Cuantos dias tiene la semana","url","1,4,6,7","7");
 
 /*
         Button button1 = (Button)findViewById(R.id.button1);
