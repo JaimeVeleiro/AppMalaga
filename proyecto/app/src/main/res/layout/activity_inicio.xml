@@ -50,7 +50,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="#FCF9D8"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +67,6 @@
 
             <View
                 android:id="@+id/separador3"
-                android:background="#FCF9D8"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 />
@@ -84,7 +82,6 @@
 
             <View
                 android:id="@+id/separador4"
-                android:background="#FCF9D8"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 />
