@@ -12,15 +12,26 @@ public class Request {
     private List<Pregunta> listData;
     private PreguntasViewModel vmInstance;
 
+    public enum idioma {
+        ESP,
+        ING
+    }
+
     public Request(PreguntasViewModel vmInstance) {
         error = false;
         this.vmInstance = vmInstance;
         listData = new ArrayList<>();
     }
 
-    public void getData() {
-        //Reseteamos el modo error para que no se guarden "errores" previos
+    public void getData(idioma tipo) {
         error = false;
+        String data;
+
+        if (tipo == idioma.ESP) {
+            data = ControladorFicheros.readText("preguntas.json");
+        } else if (tipo == idioma.ING) {
+            data = ControladorFicheros.readText("preguntasIngles.json");
+        }
 
     }
 
