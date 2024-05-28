@@ -39,7 +39,7 @@ public class Inicio extends AppCompatActivity {
             pRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         });
-        
+
         Button botonConocenos = findViewById(R.id.btConocenos);
         botonConocenos.setOnClickListener(new View.OnClickListener() {
             @Override

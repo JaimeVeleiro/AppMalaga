@@ -25,28 +25,24 @@ public class Request {
 
     public void getData(idioma tipo) {
         error = false;
-        String data;
+        String data = "";
 
         if (tipo == idioma.ESP) {
             data = ControladorFicheros.readText("preguntas.json");
         } else if (tipo == idioma.ING) {
             data = ControladorFicheros.readText("preguntasIngles.json");
         }
-
+        setData(data);
     }
 
-    public void setData(String json) {
-        //Si estamos en modo error, no hacemos nada
+    public void setData(String data) {
         if (error) return;
 
-        //Procesar el JSON para pasarlo a objetos del modelo, una lista de películas o series
         Gson gson = new Gson();
-        //MovieResultSet result = gson.fromJson(json, MovieResultSet.class);
+        AlmacenPreguntas almP = gson.fromJson(data, AlmacenPreguntas.class);
 
-        //del MovieResultSet nos interesa por ahora la lista de pelis/series
-        //listData = Arrays.asList(result.getResults());
+        listData = Arrays.asList(almP.getAlm());
 
-        //Notificamos al viewmodel
         this.vmInstance.setData();
     }
 

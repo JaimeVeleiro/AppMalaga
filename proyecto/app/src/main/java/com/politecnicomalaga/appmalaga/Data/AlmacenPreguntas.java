@@ -17,5 +17,7 @@ public class AlmacenPreguntas {
     String json = ControladorFicheros.readText(sFichero + ".json");
     Gson gson1 = new Gson();
 
-
+    public ArrayList getAlm() {
+        return alm;
+    }
 }
