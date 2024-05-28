@@ -1,224 +1,213 @@
 {
-    "preguntas": [
-      {
-        "pregunta": "¿En qué siglo experimentó Málaga un auge industrial significativo?",
-        "imagen": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/atlashistoriaecon/cap_39/Industria_Malaga_sXIX.jpg",
-        "respuestas": [
-          "Siglo XVIII",
-          "Siglo XIX",
-          "Siglo XX",
-          "Siglo XXI"
-        ],
-        "respuesta_correcta": "Siglo XIX"
-      },
-      {
-        "pregunta": "¿Qué producto era famoso por fabricarse en la fábrica de chocolate malagueña 'La Riojana'?",
-        "imagen": "https://s2.ppllstatics.com/diariosur/www/multimedia/202003/05/media/cortadas/1920%20-Fachada%20de%20la%20tienda%20de%20La%20Riojana%20de%20la%20calle%20Larios.%20Archivo%20Municipal%20de%20M%C3%A1laga-kSLB-U100414994223knE-624x385@Diario%20Sur.jpg",
-        "respuestas": [
-          "Vino",
-          "Aceite",
-          "Chocolate",
-          "Papel"
-        ],
-        "respuesta_correcta": "Chocolate"
-      },
-      {
-        "pregunta": "¿En qué barrio de Málaga se ubicaba la fábrica 'Industria Malagueña S.A.'?",
-        "imagen": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/atlashistoriaecon/cap_40/Area_industrial_Malaga.jpg",
-        "respuestas": [
-          "Churriana",
-          "Huelin",
-          "Teatinos",
-          "Carranque"
-        ],
-        "respuesta_correcta": "Huelin"
-      },
-      {
-        "pregunta": "¿Cuál fue la principal fuente de energía utilizada en las industrias malagueñas del siglo XIX?",
-        "imagen": "https://edea.juntadeandalucia.es/bancorecursos/file/c8b11d01-6442-4da4-82e4-e2ddf6442103/1/es-an_2018070512_9141928.zip/Petroleo.jpg",
-        "respuestas": [
-          "Vapor",
-          "Electricidad",
-          "Carbón",
-          "Petróleo"
-        ],
-        "respuesta_correcta": "Vapor"
-      },
-      {
-        "pregunta": "¿Qué sector industrial fue pionero en la introducción de maquinaria de vapor en Málaga?",
-        "imagen": "",
-        "respuestas": [
-          "Textil",
-          "Siderúrgico",
-          "Alimentario",
-          "Químico"
-        ],
-        "respuesta_correcta": "Siderúrgico"
-      },
-      {
-        "pregunta": "¿Qué dos eventos históricos contribuyeron al declive de la industria malagueña en el siglo XX?",
-        "imagen": "",
-        "respuestas": [
-          "Primera Guerra Mundial y Segunda Guerra Mundial",
-          "Guerra de los Cien Años y Revolución Francesa",
-          "Reconquista y Descubrimiento de América",
-          "Guerra Civil Española y Crisis del Petróleo"
-        ],
-        "respuesta_correcta": "Guerra Civil Española y Crisis del Petróleo"
-      },
-      {
-        "pregunta": "¿En qué se ha reconvertido la antigua zona industrial de Málaga en las últimas décadas?",
-        "imagen": "",
-        "respuestas": [
-          "Zona residencial",
-          "Parque empresarial",
-          "Centro comercial",
-          "Área de ocio y cultura"
-        ],
-        "respuesta_correcta": "Área de ocio y cultura"
-      },
-      {
-        "pregunta": "¿Qué papel juega actualmente la industria en la economía de Málaga?",
-        "imagen": "",
-        "respuestas": [
-          "Sigue siendo un sector importante, aunque ha disminuido su relevancia.",
-          "Ha sido reemplazada en gran medida por el turismo y los servicios.",
-          "Está experimentando un resurgimiento gracias a la innovación y las nuevas tecnologías.",
-          "No tiene un papel significativo en la economía local."
-        ],
-        "respuesta_correcta": "Sigue siendo un sector importante, aunque ha disminuido su relevancia"
-      },
-      {
-        "pregunta": "¿Qué nombre recibe la asociación que defiende el patrimonio industrial de Málaga?",
-        "imagen": "",
-        "respuestas": [
-          "Asociación en Defensa de las Chimeneas",
-          "Amigos del Patrimonio Industrial Malagueño",
-          "Fundación Málaga Industrial",
-          "Legado Histórico Industrial de la Provincia"
-        ],
-        "respuesta_correcta": "Asociación en Defensa de las Chimeneas"
-      },
-      {
-        "pregunta": "¿Qué papel jugó la industria malagueña en el desarrollo del ferrocarril en Andalucía",
-        "imagen": "",
-        "respuestas": [
-          "Financiación de la construcción de líneas férreas",
-          "Suministro de materiales para la construcción",
-          "Transporte de productos industriales",
-          "Todas las anteriores"
-        ],
-        "respuesta_correcta": "Todas las anteriores"
-      },
-      {
-        "pregunta": "¿Qué producto agrícola era fundamental para la industria aceitera malagueña?",
-        "imagen": "",
-        "respuestas": [
-          "Trigo",
-          "Cebada",
-          "Uva",
-          "Aceituna"
-        ],
-        "respuesta_correcta": "Aceituna"
-      },
-      {
-        "pregunta": "¿Qué puerto tuvo un papel importante en la exportación de productos industriales?",
-        "imagen": "",
-        "respuestas": [
-          "Puerto de Málaga",
-          "Puerto de Vélez-Málaga",
-          "Puerto de Estepona",
-          "Todos los anteriores"
-        ],
-        "respuesta_correcta": "Puerto de Málaga"
-      },
-      {
-        "pregunta": "¿Qué recurso natural contribuyó al desarrollo de la industria siderúrgica en Málaga?",
-        "imagen": "",
-        "respuestas": [
-          "Hierro",
-          "Cobre",
-          "Plata",
-          "Carbón"
-        ],
-        "respuesta_correcta": "Hierro"
-      },
-      {
-        "pregunta": "¿Qué importante infraestructura se construyó en Málaga en 1848, que favoreció el desarrollo industrial?",
-        "imagen": "",
-        "respuestas": [
-          "Puerto de Málaga",
-          "Central hidroeléctrica",
-          "Ferrocarril Málaga-Córdoba",
-          "Aeropuerto de Málaga"
-        ],
-        "respuesta_correcta": "Ferrocarril Málaga-Córdoba"
-      },
-      {
-        "pregunta": "¿Cuál fue el principal motivo de la decadencia de la siderurgia en Málaga a finales del siglo XIX?",
-        "imagen": "",
-        "respuestas": [
-          "Escasez de carbón",
-          "Competencia extranjera",
-          "Falta de inversión",
-          "Conflictos laborales"
-        ],
-        "respuesta_correcta": "Escasez de carbón"
-      },
-      {
-        "pregunta": "¿Qué tecnología permitió un aumento significativo en la producción textil de Málaga en el siglo XIX?",
-        "imagen": "",
-        "respuestas": [
-          "Telares mecánicos",
-          "Máquinas de vapor",
-          "Energía hidroeléctrica",
-          "Motores de combustión interna"
-        ],
-        "respuesta_correcta": "Máquinas de vapor"
-      },
-      {
-        "pregunta": "¿Qué innovación tecnológica se adoptó en la industria malagueña a principios del siglo XX?",
-        "imagen": "",
-        "respuestas": [
-          "Energía nuclear",
-          "Electrificación de las fábricas",
-          "Automatización con robots",
-          "Energía solar"
-        ],
-        "respuesta_correcta": "Electrificación de las fábricas"
-      },
-      {
-        "pregunta": "¿Qué importante cambio económico afectó a la industria malagueña en la segunda mitad del siglo XX?",
-        "imagen": "",
-        "respuestas": [
-          "Nacionalización de las industrias",
-          "Privatización masiva de empresas",
-          "Revolución industrial 4.0",
-          "Integración en la Comunidad Económica Europea"
-        ],
-        "respuesta_correcta": "Integración en la Comunidad Económica Europea"
-      },
-      {
-        "pregunta": "¿Cuál fue la importancia del río Guadalmedina para la industria malagueña?",
-        "imagen": "",
-        "respuestas": [
-          "Fuente de energía hidroeléctrica",
-          "Vía de transporte de mercancías",
-          "Suministro de agua para las fábricas",
-          "Zona de pesca industrial"
-        ],
-        "respuesta_correcta": "Suministro de agua para las fábricas"
-      },
-      {
-        "pregunta": "¿Qué característica distintiva tenían los productos de la cervecería 'Victoria'?",
-        "imagen": "",
-        "respuestas": [
-          "Uso de agua de manantial",
-          "Método de fermentación tradicional",
-          "Ingredientes orgánicos",
-          "Embalaje reutilizable"
-        ],
-        "respuesta_correcta": "Método de fermentación tradicional"
-      }
-    ]
+  "preguntas": [
+    {
+      "pregunta": "¿En qué siglo experimentó Málaga un auge industrial significativo?",
+      "imagen": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/atlashistoriaecon/cap_39/Industria_Malaga_sXIX.jpg",
+      "respuestas": [
+        "Siglo XVIII",
+        "Siglo XIX",
+        "Siglo XX",
+        "Siglo XXI"
+      ],
+      "respuesta_correcta": "Siglo XIX"
+    },
+    {
+      "pregunta": "¿Qué producto era famoso por fabricarse en la fábrica de chocolate malagueña 'La Riojana'?",
+      "imagen": "https://s2.ppllstatics.com/diariosur/www/multimedia/202003/05/media/cortadas/1920%20-Fachada%20de%20la%20tienda%20de%20La%20Riojana%20de%20la%20calle%20Larios.%20Archivo%20Municipal%20de%20M%C3%A1laga-kSLB-U100414994223knE-624x385@Diario%20Sur.jpg",
+      "respuestas": [
+        "Vino",
+        "Aceite",
+        "Chocolate",
+        "Papel"
+      ],
+      "respuesta_correcta": "Chocolate"
+    },
+    {
+      "pregunta": "¿En qué barrio de Málaga se ubicaba la fábrica 'Industria Malagueña S.A.'?",
+      "imagen": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/atlashistoriaecon/cap_40/Area_industrial_Malaga.jpg",
+      "respuestas": [
+        "Churriana",
+        "Huelin",
+        "Teatinos",
+        "Carranque"
+      ],
+      "respuesta_correcta": "Huelin"
+    },
+    {
+      "pregunta": "¿Cuál fue la principal fuente de energía utilizada en las industrias malagueñas del siglo XIX?",
+      "imagen": "https://edea.juntadeandalucia.es/bancorecursos/file/c8b11d01-6442-4da4-82e4-e2ddf6442103/1/es-an_2018070512_9141928.zip/Petroleo.jpg",
+      "respuestas": [
+        "Vapor",
+        "Electricidad",
+        "Carbón",
+        "Petróleo"
+      ],
+      "respuesta_correcta": "Vapor"
+    },
+    {
+      "pregunta": "¿Qué sector industrial fue pionero en la introducción de maquinaria de vapor en Málaga?",
+      "imagen": "https://www.fundacionaquae.org/wp-content/uploads/2016/01/maquina-vapor-1024x697.jpg",
+      "respuestas": [
+        "Textil",
+        "Siderúrgico",
+        "Alimentario",
+        "Químico"
+      ],
+      "respuesta_correcta": "Siderúrgico"
+    },
+    {
+      "pregunta": "¿En qué se ha reconvertido la antigua zona industrial de Málaga en las últimas décadas?",
+      "imagen": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/atlashistoriaecon/cap_40/Area_industrial_Malaga.jpg",
+      "respuestas": [
+        "Zona residencial",
+        "Parque empresarial",
+        "Centro comercial",
+        "Área de ocio y cultura"
+      ],
+      "respuesta_correcta": "Área de ocio y cultura"
+    },
+    {
+      "pregunta": "¿Qué papel juega actualmente la industria en la economía de Málaga?",
+      "imagen": "https://estaticos-cdn.prensaiberica.es/clip/294c469a-454c-4ff3-9af1-c14bcfe4255f_16-9-aspect-ratio_default_0.jpg",
+      "respuestas": [
+        "Sigue siendo un sector importante.",
+        "Ha sido reemplazada por el turismo.",
+        "Está experimentando un resurgimiento.",
+        "No tiene un papel significativo en la economía local."
+      ],
+      "respuesta_correcta": " Sigue siendo un sector importante"
+    },
+    {
+      "pregunta": "¿Qué nombre recibe la asociación que defiende el patrimonio industrial de Málaga?",
+      "imagen": "https://sif-mes.org/wp-content/uploads/Logo-APIDMA.jpg",
+      "respuestas": [
+        "Asociación en Defensa de las Chimeneas",
+        "Amigos del Patrimonio Industrial Malagueño",
+        "Fundación Málaga Industrial",
+        "Legado Histórico Industrial de la Provincia"
+      ],
+      "respuesta_correcta": "Asociación en Defensa de las Chimeneas"
+    },
+    {
+      "pregunta": "¿Qué papel jugó la industria malagueña en el desarrollo del ferrocarril en Andalucía",
+      "imagen": "https://www.malagahoy.es/2016/12/24/malaga/span-styletext-transformuppercaseferrocarrilspan-transformo-styletext-transformuppercasebarriospan_1093400838_105810980_1200x675.jpg",
+      "respuestas": [
+        "Financiación de la construcción de líneas férreas",
+        "Suministro de materiales para la construcción",
+        "Transporte de productos industriales",
+        "Todas las anteriores"
+      ],
+      "respuesta_correcta": "Todas las anteriores"
+    },
+    {
+      "pregunta": "¿Qué producto agrícola era fundamental para la industria aceitera malagueña?",
+      "imagen": "https://c8.alamy.com/compes/2e3c212/fabrica-tradicional-del-siglo-xix-de-aceite-de-oliva-virgen-extra-san-jose-lora-del-rio-sevilla-espana-antiguo-siglo-xix-ilustracion-grabada-de-la-ilustracion-espanola-y-americana-1890-2e3c212.jpg",
+      "respuestas": [
+        "Trigo",
+        "Cebada",
+        "Uva",
+        "Aceituna"
+      ],
+      "respuesta_correcta": "Aceituna"
+    },
+    {
+      "pregunta": "¿Qué puerto tuvo un papel importante en la exportación de productos industriales?",
+      "imagen": "https://www.puertomalaga.com/wp-content/uploads/2017/07/imagen13nueva.jpg",
+      "respuestas": [
+        "Puerto de Málaga",
+        "Puerto de Vélez-Málaga",
+        "Puerto de Estepona",
+        "Todos los anteriores"
+      ],
+      "respuesta_correcta": "Puerto de Málaga"
+    },
+    {
+      "pregunta": "¿Qué recurso natural contribuyó al desarrollo de la industria siderúrgica en Málaga?",
+      "imagen": "https://www.juntadeandalucia.es/presidencia/portavoz/resources/files/2020/10/7/1602082284898malagaplayaEstdn.jpg",
+      "respuestas": [
+        "Hierro",
+        "Cobre",
+        "Plata",
+        "Carbón"
+      ],
+      "respuesta_correcta": "Hierro"
+    },
+    {
+      "pregunta": "¿Qué importante infraestructura se construyó en Málaga en 1848, que favoreció el desarrollo industrial?",
+      "imagen": "https://estaticos-cdn.prensaiberica.es/clip/0b06ac9e-0a1b-45e5-b501-cbd3cb2e3c28_16-9-aspect-ratio_default_0.jpg",
+      "respuestas": [
+        "Puerto de Málaga",
+        "Central hidroeléctrica",
+        "Ferrocarril Málaga-Córdoba",
+        "Aeropuerto de Málaga"
+      ],
+      "respuesta_correcta": "Ferrocarril Málaga-Córdoba"
+    },
+    {
+      "pregunta": "¿Cuál fue el principal motivo de la decadencia de la siderurgia en Málaga a finales del siglo XIX?",
+      "imagen": "https://www.tecnicaindustrial.es/wp-content/uploads/Numeros/13/37/images/a37_img_0.jpg",
+      "respuestas": [
+        "Escasez de carbón",
+        "Competencia extranjera",
+        "Falta de inversión",
+        "Conflictos laborales"
+      ],
+      "respuesta_correcta": "Escasez de carbón"
+    },
+    {
+      "pregunta": "¿Qué tecnología permitió un aumento significativo en la producción textil de Málaga en el siglo XIX?",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/2d/MNACTEC_1.3.1.1-18464.jpg",
+      "respuestas": [
+        "Telares mecánicos",
+        "Máquinas de vapor",
+        "Energía hidroeléctrica",
+        "Motores de combustión interna"
+      ],
+      "respuesta_correcta": "Máquinas de vapor"
+    },
+    {
+      "pregunta": "¿Qué innovación tecnológica se adoptó en la industria malagueña a principios del siglo XX?",
+      "imagen": "https://s1.elespanol.com/2023/03/22/malaga/malaga-ciudad/750435167_231831012_1706x1280.jpg",
+      "respuestas": [
+        "Energía nuclear",
+        "Electrificación de las fábricas",
+        "Automatización con robots",
+        "Energía solar"
+      ],
+      "respuesta_correcta": "Electrificación de las fábricas"
+    },
+    {
+      "pregunta": "¿Qué importante cambio económico afectó a la industria malagueña en la segunda mitad del siglo XX?",
+      "imagen": "https://spain.representation.ec.europa.eu/sites/default/files/styles/oe_theme_medium_no_crop/public/2021-05/adhesion-espana-portugal.jpg?itok=JqmHTR0t",
+      "respuestas": [
+        "Nacionalización de las industrias",
+        "Privatización masiva de empresas",
+        "Revolución industrial 4.0",
+        "Integración en la Comunidad Económica Europea"
+      ],
+      "respuesta_correcta": "Integración en la Comunidad Económica Europea"
+    },
+    {
+      "pregunta": "¿Cuál fue la importancia del río Guadalmedina para la industria malagueña?",
+      "imagen": "https://efeverde.com/wp-content/uploads/2023/07/f965ef204e7d507d4d146ad3e0cfccb6c86ea1c7w.jpg",
+      "respuestas": [
+        "Fuente de energía hidroeléctrica",
+        "Vía de transporte de mercancías",
+        "Suministro de agua para las fábricas",
+        "Zona de pesca industrial"
+      ],
+      "respuesta_correcta": "Suministro de agua para las fábricas"
+    },
+    {
+      "pregunta": "¿Qué característica distintiva tenían los productos de la cervecería 'Victoria'?",
+      "imagen": "https://cloud10.todocoleccion.online/coleccionismo-cerveza/tc/2022/12/17/19/382205884.jpg",
+      "respuestas": [
+        "Uso de agua de manantial",
+        "Método de fermentación tradicional",
+        "Ingredientes orgánicos",
+        "Embalaje reutilizable"
+      ],
+      "respuesta_correcta": "Método de fermentación tradicional"
+    }
+  ]
 }
