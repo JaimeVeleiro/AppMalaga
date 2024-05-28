@@ -21,8 +21,7 @@
         app:layout_constraintBottom_toTopOf="@id/separador1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/separador1"
@@ -31,9 +30,7 @@
         app:layout_constraintBottom_toTopOf="@id/cvBotones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
-        />
-
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvBotones"
@@ -43,8 +40,7 @@
         app:layout_constraintBottom_toTopOf="@id/separador2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/separador1"
-        >
+        app:layout_constraintTop_toBottomOf="@id/separador1">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,8 +49,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            >
+            app:layout_constraintTop_toTopOf="parent">
 
             <Button
                 android:id="@+id/btJugar"
@@ -62,14 +57,12 @@
                 android:layout_height="match_parent"
                 android:text="Jugar"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3"
-                />
+                android:backgroundTint="#09a6a3" />
 
             <View
                 android:id="@+id/separador3"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
-                />
+                android:layout_height="20dp" />
 
             <Button
                 android:id="@+id/btLogros"
@@ -77,14 +70,12 @@
                 android:layout_height="match_parent"
                 android:text="Logros"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3"
-                />
+                android:backgroundTint="#09a6a3" />
 
             <View
                 android:id="@+id/separador4"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
-                />
+                android:layout_height="20dp" />
 
             <Button
                 android:id="@+id/btPreguntas"
@@ -92,21 +83,32 @@
                 android:layout_height="match_parent"
                 android:text="Preguntas Libres"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3"
-                />
+                android:backgroundTint="#09a6a3" />
+
+            <View
+                android:id="@+id/separador5"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btLeaderboard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Leaderboard"
+                android:textColor="#0a0a0a"
+                android:backgroundTint="#09a6a3" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <View
         android:id="@+id/separador2"
         android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_height="100dp"
         android:background="#FCF9D8"
         app:layout_constraintBottom_toTopOf="@id/cvBotones2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cvBotones"
-        />
+        app:layout_constraintTop_toBottomOf="@id/cvBotones" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvBotones2"
@@ -116,8 +118,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/separador2"
-        >
+        app:layout_constraintTop_toBottomOf="@id/separador2">
 
         <LinearLayout
             android:id="@+id/llBotones2"
@@ -128,8 +129,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            >
+            app:layout_constraintTop_toTopOf="parent">
+
             <Button
                 android:id="@+id/btOpciones"
                 android:layout_width="120dp"
@@ -137,8 +138,7 @@
                 android:text="Opciones"
                 android:layout_weight="1"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3"
-                />
+                android:backgroundTint="#09a6a3" />
 
             <Button
                 android:id="@+id/btIdiomas"
@@ -147,9 +147,7 @@
                 android:text="Idiomas"
                 android:layout_weight="1"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3"
-                />
-
+                android:backgroundTint="#09a6a3" />
 
             <Button
                 android:id="@+id/btConocenos"
@@ -158,8 +156,7 @@
                 android:layout_weight="1"
                 android:text="Conocenos"
                 android:textColor="#0a0a0a"
-                android:backgroundTint="#09a6a3"/>
-
+                android:backgroundTint="#09a6a3" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

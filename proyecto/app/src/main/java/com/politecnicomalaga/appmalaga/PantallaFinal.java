@@ -12,12 +12,16 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class PantallaFinal extends AppCompatActivity {
+    private int score; // Asume que esta es tu puntuación calculada durante el juego
+    private Leaderboard leaderboard;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_pantalla_final);
+
 
         Button btAceptar = (Button) findViewById(R.id.btAceptar);
         btAceptar.setOnClickListener(new View.OnClickListener() {
@@ -28,5 +32,7 @@ public class PantallaFinal extends AppCompatActivity {
                 finish();
             }
         });
+
+
     }
 }
