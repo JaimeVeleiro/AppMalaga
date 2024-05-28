@@ -45,30 +45,38 @@
         <Button
             android:id="@+id/tvResp1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            android:layout_marginTop="15dp"
+            app:backgroundTint="#6cb6ec" />
 
         <Button
             android:id="@+id/tvResp2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            android:layout_marginTop="15dp"
+            app:backgroundTint="#ff7d7d" />
 
         <Button
             android:id="@+id/tvResp3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            android:layout_marginTop="15dp"
+            app:backgroundTint="#ff7d7d" />
 
         <Button
             android:id="@+id/tvResp4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            android:layout_marginTop="15dp"
+            app:backgroundTint="#6cb6ec" />
     </LinearLayout>
 
     <LinearLayout
@@ -89,3 +97,4 @@
         android:background="#FF0000" />
 
 </LinearLayout>
+
