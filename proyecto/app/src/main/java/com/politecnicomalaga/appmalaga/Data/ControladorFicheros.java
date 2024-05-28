@@ -1,5 +1,6 @@
 package com.politecnicomalaga.appmalaga.Data;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -44,17 +45,19 @@ public class ControladorFicheros {
     }
 
     public static String readText (String filename){
-        Scanner sc=null;
+        BufferedReader sc=null;
         FileReader fr = null;
         String texto = "";
+        String texto2 = "";
 
         try {
             fr = new FileReader(filename);
-            sc = new Scanner(fr);
+            sc = new BufferedReader(fr);
 
-            while(sc.hasNext()){
-                texto += sc.nextLine()+"\n";
+            while((texto = sc.readLine())!= null){
+                texto2 += texto;
             }
+
             fr=null;
             sc.close();
 
@@ -70,7 +73,7 @@ public class ControladorFicheros {
                 System.out.println(e.getMessage());
             }
         }
-        return texto;
+        return texto2;
 
 
     }

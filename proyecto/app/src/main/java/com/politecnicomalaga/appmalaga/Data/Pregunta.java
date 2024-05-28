@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class Pregunta {
 
     String sPregunta, sImagen, sRespuestaCorrecta;
-    ArrayList<String> alRespuestas;
+    String[] alRespuestas;
 
     public Pregunta(String sPregunta, String sImagen, String sRespuestaCorrecta) {
         this.sPregunta = sPregunta;
         this.sImagen = sImagen;
         this.sRespuestaCorrecta = sRespuestaCorrecta;
-        alRespuestas = new ArrayList<>();
+        alRespuestas = new String[20];
     }
 
     public String getsPregunta() {
@@ -38,17 +38,10 @@ public class Pregunta {
         this.sRespuestaCorrecta = sRespuestaCorrecta;
     }
 
-    public ArrayList<String> getAlRespuestas() {
-        return alRespuestas;
-    }
-
     public String cogerRespuesta(int i) {
         String respuesta;
-        respuesta = alRespuestas.get(i);
+        respuesta = alRespuestas[i];
         return respuesta;
     }
 
-    public void setAlRespuestas(ArrayList<String> alRespuestas) {
-        this.alRespuestas = alRespuestas;
-    }
 }

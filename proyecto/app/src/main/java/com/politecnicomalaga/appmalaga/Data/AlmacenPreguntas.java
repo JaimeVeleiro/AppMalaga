@@ -12,10 +12,10 @@ public class AlmacenPreguntas {
     public AlmacenPreguntas() {
     }
 
-    String sFichero = "preguntas";
+    //String sFichero = "preguntas";
 
-    String json = ControladorFicheros.readText(sFichero + ".json");
-    Gson gson1 = new Gson();
+    //String json = ControladorFicheros.readText(sFichero + ".json");
+    //Gson gson1 = new Gson();
 
     public Pregunta[] getAlm() {
         return alm;
