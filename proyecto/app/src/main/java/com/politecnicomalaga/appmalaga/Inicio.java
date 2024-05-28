@@ -30,15 +30,7 @@ public class Inicio extends AppCompatActivity {
             return insets;
         });
 
-        PreguntasViewModel vmodel = new ViewModelProvider(this).get(PreguntasViewModel.class);
-        vmodel.getResults().observe(this, Pregunta -> {
 
-            RecyclerView pRecyclerView = findViewById(R.id.rvPreguntas);
-            PreguntaRVAdapter pAdapter = new PreguntaRVAdapter(this, Pregunta);
-            pRecyclerView.setAdapter(pAdapter);
-            pRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        });
 
         Button botonConocenos = findViewById(R.id.btConocenos);
         botonConocenos.setOnClickListener(new View.OnClickListener() {

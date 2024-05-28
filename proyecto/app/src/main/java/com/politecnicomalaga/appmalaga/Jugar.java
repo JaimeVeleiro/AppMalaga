@@ -10,7 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.politecnicomalaga.appmalaga.Control.PreguntaRVAdapter;
+import com.politecnicomalaga.appmalaga.Control.PreguntasViewModel;
 import com.politecnicomalaga.appmalaga.Data.Pregunta;
 
 public class Jugar extends AppCompatActivity {
@@ -20,6 +25,16 @@ public class Jugar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_jugar);
+
+        PreguntasViewModel vmodel = new ViewModelProvider(this).get(PreguntasViewModel.class);
+        vmodel.getResults().observe(this, Pregunta -> {
+
+            RecyclerView pRecyclerView = findViewById(R.id.rvPreguntas);
+            PreguntaRVAdapter pAdapter = new PreguntaRVAdapter(this, Pregunta);
+            pRecyclerView.setAdapter(pAdapter);
+            pRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        });
 
         Button btnBack = (Button)findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
