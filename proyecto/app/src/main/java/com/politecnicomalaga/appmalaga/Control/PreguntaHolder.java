@@ -8,11 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.politecnicomalaga.appmalaga.Comprobacion;
 import com.politecnicomalaga.appmalaga.R;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class PreguntaHolder extends RecyclerView.ViewHolder {
     private TextView hpregunta;

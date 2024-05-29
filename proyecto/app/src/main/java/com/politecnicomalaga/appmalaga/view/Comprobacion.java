@@ -1,4 +1,4 @@
-package com.politecnicomalaga.appmalaga;
+package com.politecnicomalaga.appmalaga.view;
 
 import com.politecnicomalaga.appmalaga.Data.Pregunta;
 

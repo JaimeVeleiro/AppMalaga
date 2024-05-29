@@ -1,4 +1,4 @@
-package com.politecnicomalaga.appmalaga;
+package com.politecnicomalaga.appmalaga.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,16 +7,13 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.politecnicomalaga.appmalaga.Control.PreguntaRVAdapter;
 import com.politecnicomalaga.appmalaga.Control.PreguntasViewModel;
-import com.politecnicomalaga.appmalaga.Data.Pregunta;
+import com.politecnicomalaga.appmalaga.R;
 
 public class Jugar extends AppCompatActivity {
 

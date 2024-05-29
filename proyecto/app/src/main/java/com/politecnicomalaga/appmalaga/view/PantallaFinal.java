@@ -1,4 +1,4 @@
-package com.politecnicomalaga.appmalaga;
+package com.politecnicomalaga.appmalaga.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,9 +8,8 @@ import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.politecnicomalaga.appmalaga.R;
 
 public class PantallaFinal extends AppCompatActivity {
     private int score; // Asume que esta es tu puntuación calculada durante el juego

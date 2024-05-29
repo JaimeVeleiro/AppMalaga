@@ -6,7 +6,7 @@
     android:background="#FCF9D8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Opciones">
+    tools:context=".view.Opciones">
 
     <TextView
         android:id="@+id/tvTitulo"

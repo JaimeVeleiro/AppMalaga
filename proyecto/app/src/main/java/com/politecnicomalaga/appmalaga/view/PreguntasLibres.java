@@ -1,4 +1,4 @@
-package com.politecnicomalaga.appmalaga;
+package com.politecnicomalaga.appmalaga.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,19 +11,26 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Logros extends AppCompatActivity {
+import com.politecnicomalaga.appmalaga.R;
+
+public class PreguntasLibres extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_logros);
+        setContentView(R.layout.activity_preguntas_libres);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
 
         Button btnBack = (Button)findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Logros.this, Inicio.class);
+                Intent intent = new Intent(PreguntasLibres.this, Inicio.class);
                 startActivity(intent);
             }
         });

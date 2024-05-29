@@ -7,7 +7,7 @@
     android:gravity="center"
     android:padding="16dp"
     android:background="#FBFBF8"
-    tools:context=".PantallaFinal">
+    tools:context=".view.PantallaFinal">
 
     <TextView
         android:id="@+id/tv_obtenido"
