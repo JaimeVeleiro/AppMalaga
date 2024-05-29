@@ -8,7 +8,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.politecnicomalaga.appmalaga.Comprobacion;
 import com.politecnicomalaga.appmalaga.R;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class PreguntaHolder extends RecyclerView.ViewHolder {
     private TextView hpregunta;
@@ -26,6 +30,34 @@ public class PreguntaHolder extends RecyclerView.ViewHolder {
         hbutton4 = (Button) itemView.findViewById(R.id.tvResp4);
 
     }
+
+
+    /*Button button1 = (Button)findViewById(R.id.button1);
+    Button button2 = (Button)findViewById(R.id.button2);
+    Button button3 = (Button)findViewById(R.id.button3);
+    Button button4 = (Button)findViewById(R.id.button4);
+
+    View.OnClickListener listener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Button boton = (Button) v;
+            String textoBt = boton.getText().toString();
+            Comprobacion comp = new Comprobacion();
+            boolean esCorrecto = comp.compararTextos(textoBt,preguntaActual);
+            if(esCorrecto){
+                //Puntuacion++
+                //Cambiar de pregunta
+            }else{
+                //Cambiar de pregunta
+            }
+
+        }
+    };
+        button1.setOnClickListener(listener);
+        button2.setOnClickListener(listener);
+        button3.setOnClickListener(listener);
+        button4.setOnClickListener(listener);*/
+
     public TextView getPregunta() {
         return hpregunta;
     }

@@ -34,6 +34,7 @@ public class Jugar extends AppCompatActivity {
             pRecyclerView.setAdapter(pAdapter);
             pRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+
         });
 
         Button btnBack = (Button)findViewById(R.id.btnBack);
@@ -45,34 +46,9 @@ public class Jugar extends AppCompatActivity {
             }
         });
 
-        //Pregunta preguntaActual = new Pregunta("Cuantos dias tiene la semana","url","1,4,6,7","7");
 
-/*
-        Button button1 = (Button)findViewById(R.id.button1);
-        Button button2 = (Button)findViewById(R.id.button2);
-        Button button3 = (Button)findViewById(R.id.button3);
-        Button button4 = (Button)findViewById(R.id.button4);
 
-        View.OnClickListener listener = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Button boton = (Button) v;
-                String textoBt = boton.getText().toString();
-                Comprobacion comp = new Comprobacion();
-                boolean esCorrecto = comp.compararTextos(textoBt,preguntaActual);
-                if(esCorrecto){
-                    //Puntuacion++
-                    //Cambiar de pregunta
-                }else{
-                    //Cambiar de pregunta
-                }
 
-            }
-        };
-        button1.setOnClickListener(listener);
-        button2.setOnClickListener(listener);
-        button3.setOnClickListener(listener);
-        button4.setOnClickListener(listener);*/
 
     }
 }
