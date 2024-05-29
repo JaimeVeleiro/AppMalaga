@@ -24,7 +24,7 @@ public class Opciones extends AppCompatActivity {
             return insets;
         });
 
-        Button btvolver = findViewById(R.id.btVolver);
+        Button btvolver = findViewById(R.id.btnBack);
         btvolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
